@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.geekbrains.chat.client.MainChatController">
+   <children>
+      <Pane fx:id="chatPane" prefHeight="600.0" prefWidth="800.0" visible="false">
+         <children>
+            <VBox prefHeight="600.0" prefWidth="800.0">
+                <MenuBar>
+                    <Menu text="File">
+                        <MenuItem onAction="#mockAction" text="Item1" />
+                        <MenuItem onAction="#mockAction" text="Item2" />
+                        <MenuItem onAction="#mockAction" text="Item3" />
+                        <MenuItem onAction="#mockAction" text="Item4" />
+                        <MenuItem onAction="#exit" text="Exit" />
+                    </Menu>
+                    <Menu text="Edit">
+                        <MenuItem fx:id="btnChangeLogIn" onAction="#beginChangeLogIn" text="Change Login" />
+                        <MenuItem fx:id="btnChangePass" onAction="#beginChangePass" text="Change Password" />
+                        <MenuItem fx:id="btnNewUser" onAction="#beginNewUser" text="New User" />
+                        <MenuItem onAction="#mockAction" text="Item5" />
+                    </Menu>
+                    <Menu text="Help">
+                        <MenuItem onAction="#mockAction" text="Item1" />
+                        <MenuItem onAction="#mockAction" text="Item2" />
+                        <MenuItem onAction="#mockAction" text="Item3" />
+                        <MenuItem onAction="#showHelp" text="Help" />
+                        <MenuItem onAction="#showAbout" text="About" />
+                    </Menu>
+                </MenuBar>
+                <HBox VBox.vgrow="ALWAYS">
+                    <TextArea fx:id="chatArea" editable="false" prefWidth="635.0" HBox.hgrow="ALWAYS">
+                     <HBox.margin>
+                        <Insets right="5.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </TextArea>
+                    <ListView fx:id="onlineUsers" prefWidth="150.0" />
+                    <padding>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                    </padding>
+                </HBox>
+                <HBox>
+                    <TextField fx:id="inputField" onAction="#sendMessage" prefHeight="70.0" promptText="Введите сообщение" HBox.hgrow="ALWAYS">
+                     <HBox.margin>
+                        <Insets right="5.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </TextField>
+                    <Button fx:id="btnSendMessage" onAction="#sendMessage" prefHeight="70.0" prefWidth="150.0" text="SEND">
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                  </Button>
+                    <padding>
+                        <Insets bottom="5.0" right="5.0" top="5.0" />
+                    </padding>
+                </HBox>
+            
+            </VBox>
+         </children>
+      </Pane>
+      <Pane fx:id="loginPane" prefHeight="600.0" prefWidth="800.0">
+         <children>
+            <TextField fx:id="loginField" layoutX="80.0" layoutY="100.0" prefHeight="38.0" prefWidth="300.0">
+               <font>
+                  <Font size="24.0" />
+               </font></TextField>
+            <PasswordField fx:id="passwordField" layoutX="80.0" layoutY="200.0" prefHeight="38.0" prefWidth="300.0">
+               <font>
+                  <Font size="24.0" />
+               </font></PasswordField>
+            <Label alignment="TOP_CENTER" layoutX="440.0" layoutY="110.0" prefHeight="38.0" prefWidth="130.0" text="Login">
+               <font>
+                  <Font size="24.0" />
+               </font></Label>
+            <Label alignment="TOP_CENTER" layoutX="440.0" layoutY="200.0" prefHeight="38.0" prefWidth="130.0" text="Password">
+               <font>
+                  <Font size="24.0" />
+               </font></Label>
+            <Button fx:id="btnSendAuth" layoutX="340.0" layoutY="385.0" mnemonicParsing="false" onAction="#sendAuth" text="log in">
+               <font>
+                  <Font size="24.0" />
+               </font></Button>
+         </children>
+      </Pane>
+      <Pane fx:id="changeLogin" layoutX="10.0" layoutY="10.0" prefHeight="600.0" prefWidth="800.0" visible="false">
+         <children>
+            <TextField fx:id="changeUserNameField" layoutX="80.0" layoutY="100.0" prefHeight="38.0" prefWidth="300.0">
+               <font>
+                  <Font size="24.0" />
+               </font></TextField>
+            <PasswordField fx:id="changeUserNamePassField" layoutX="80.0" layoutY="200.0" prefHeight="38.0" prefWidth="300.0">
+               <font>
+                  <Font size="24.0" />
+               </font></PasswordField>
+            <Label alignment="TOP_CENTER" layoutX="440.0" layoutY="110.0" prefHeight="38.0" prefWidth="130.0" text="New Login">
+               <font>
+                  <Font size="24.0" />
+               </font></Label>
+            <Label layoutX="440.0" layoutY="200.0" prefHeight="38.0" prefWidth="130.0" text="Password">
+               <font>
+                  <Font size="24.0" />
+               </font></Label>
+            <Button fx:id="btnNewLogIn" layoutX="340.0" layoutY="385.0" mnemonicParsing="false" onAction="#setNewLogin" text="Confirm">
+               <font>
+                  <Font size="24.0" />
+               </font></Button>
+         </children>
+      </Pane>
+      <Pane fx:id="changePass" layoutX="20.0" layoutY="20.0" prefHeight="600.0" prefWidth="800.0" visible="false">
+         <children>
+            <PasswordField fx:id="changePassOldPassField" layoutX="80.0" layoutY="100.0" prefHeight="38.0" prefWidth="300.0">
+               <font>
+                  <Font size="24.0" />
+               </font></PasswordField>
+            <PasswordField fx:id="changePassnewPassField" layoutX="80.0" layoutY="200.0" prefHeight="38.0" prefWidth="300.0">
+               <font>
+                  <Font size="24.0" />
+               </font></PasswordField>
+            <PasswordField fx:id="changePassConfirmPassField" layoutX="80.0" layoutY="300.0" prefHeight="38.0" prefWidth="300.0">
+               <font>
+                  <Font size="24.0" />
+               </font></PasswordField>
+            <Label layoutX="440.0" layoutY="100.0" prefHeight="38.0" prefWidth="171.0" text="Old Password">
+               <font>
+                  <Font size="24.0" />
+               </font></Label>
+            <Label layoutX="440.0" layoutY="200.0" prefHeight="38.0" prefWidth="185.0" text="New Password">
+               <font>
+                  <Font size="24.0" />
+               </font></Label>
+            <Label layoutX="440.0" layoutY="300.0" prefHeight="38.0" prefWidth="285.0" text="Confirm New Password">
+               <font>
+                  <Font size="24.0" />
+               </font></Label>
+            <Button fx:id="btmChangePassword" layoutX="340.0" layoutY="485.0" mnemonicParsing="false" onAction="#changePassword" text="Confirm">
+               <font>
+                  <Font size="24.0" />
+               </font></Button>
+         </children>
+      </Pane>
+      <Pane fx:id="newUser" layoutX="10.0" layoutY="10.0" prefHeight="600.0" prefWidth="800.0" visible="false">
+         <children>
+            <TextField fx:id="newUserNameField" layoutX="80.0" layoutY="100.0" prefHeight="38.0" prefWidth="300.0">
+               <font>
+                  <Font size="24.0" />
+               </font></TextField>
+            <PasswordField fx:id="passNewUserField" layoutX="80.0" layoutY="200.0" prefHeight="38.0" prefWidth="300.0">
+               <font>
+                  <Font size="24.0" />
+               </font></PasswordField>
+            <Label layoutX="440.0" layoutY="100.0" prefHeight="38.0" prefWidth="130.0" text="New Login">
+               <font>
+                  <Font size="24.0" />
+               </font></Label>
+            <Label layoutX="440.0" layoutY="200.0" prefHeight="38.0" prefWidth="195.0" text="New Password">
+               <font>
+                  <Font size="24.0" />
+               </font></Label>
+            <Button fx:id="buttonNewUser" layoutX="340.0" layoutY="385.0" mnemonicParsing="false" onAction="#newUser" text="Confirm">
+               <font>
+                  <Font size="24.0" />
+               </font></Button>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

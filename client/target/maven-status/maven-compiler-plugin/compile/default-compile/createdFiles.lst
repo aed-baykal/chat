@@ -1,0 +1,10 @@
+ru/geekbrains/chat/client/HistoryMaker.class
+ru/geekbrains/chat/client/Main.class
+ru/geekbrains/chat/client/MainChatController$1.class
+ru/geekbrains/chat/client/MainChatController.class
+ru/geekbrains/chat/client/network/MessageProcessor.class
+ru/geekbrains/chat/client/AboutController.class
+ru/geekbrains/chat/client/network/ChatMessageService.class
+ru/geekbrains/chat/client/App.class
+ru/geekbrains/chat/client/network/ChatMessageServiceImpl.class
+ru/geekbrains/chat/client/network/NetworkService.class
