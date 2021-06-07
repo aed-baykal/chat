@@ -38,14 +38,14 @@ public class ClientHandler {
     }
 
     public void handle() {
-        new Thread(() -> {
+            chatServer.getStartingService().execute(() -> {
             try {
                 authenticate();
                 if (exist) readMessages();
             } catch (IOException e) {
                 e.printStackTrace();
             }
-        }).start();
+        });
     }
 
     private void readMessages() throws IOException {
