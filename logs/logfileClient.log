@@ -1,0 +1,4 @@
+INFO  2021-06-10 13:05:01 [main] ru.geekbrains.chat.client.Main:10 (Main.java:10) - Info
+INFO  2021-06-10 13:05:12 [JavaFX Application Thread] ru.geekbrains.chat.client.MainChatController:119 (MainChatController.java:119) - From MainChatController - Received message
+INFO  2021-06-10 13:05:12 [JavaFX Application Thread] ru.geekbrains.chat.client.MainChatController:119 (MainChatController.java:119) - From MainChatController - Received message
+INFO  2021-06-10 13:05:12 [JavaFX Application Thread] ru.geekbrains.chat.client.HistoryMaker:50 (HistoryMaker.java:50) - From HistoryMaker - History for 8

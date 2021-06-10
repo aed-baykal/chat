@@ -1,8 +1,11 @@
 package ru.geekbrains.chat.server.server;
 
-import ru.geekbrains.chat.server.auth.User;
+import org.apache.logging.log4j.Level;
+import ru.geekbrains.chat.client.Main;
 import ru.geekbrains.chat.common.ChatMessage;
 import ru.geekbrains.chat.common.MessageType;
+import ru.geekbrains.chat.server.ServerApp;
+import ru.geekbrains.chat.server.auth.User;
 
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
@@ -30,7 +33,8 @@ public class ClientHandler {
             this.inputStream = new DataInputStream(socket.getInputStream());
             this.outputStream = new DataOutputStream(socket.getOutputStream());
             this.exist = true;
-            System.out.println("Client handler created!!!");
+            ServerApp.LOGGER_SERVER.log(Level.valueOf("Info"), "Client handler created!!!");
+//            System.out.println("Client handler created!!!");
 
         } catch (IOException e) {
             e.printStackTrace();
@@ -38,7 +42,7 @@ public class ClientHandler {
     }
 
     public void handle() {
-            chatServer.getStartingService().execute(() -> {
+        chatServer.getStartingService().execute(() -> {
             try {
                 authenticate();
                 if (exist) readMessages();
@@ -124,13 +128,15 @@ public class ClientHandler {
     }
 
     private void authenticate() throws SocketException {
-        System.out.println("Started client  auth...");
+        ServerApp.LOGGER_SERVER.log(Level.valueOf("Info"), "From ClientHandler - Started client  auth...");
+//        System.out.println("Started client  auth...");
         TimerTask task = new TimerTask(){
             @Override
             public void run() {
                     closeHandler();
                     exist = false;
-                System.out.println("Connection is closed!");
+                ServerApp.LOGGER_SERVER.log(Level.valueOf("Warn"), "From ClientHandler -  Connection is closed!");
+//                System.out.println("Connection is closed!");
             }
         };
         Timer timer = new Timer();
@@ -138,25 +144,29 @@ public class ClientHandler {
         try {
             while (true) {
                 String authMessage = inputStream.readUTF();
-                System.out.println("Auth received");
+                ServerApp.LOGGER_SERVER.log(Level.valueOf("Info"), "From ClientHandler - Auth received");
+//                System.out.println("Auth received");
                 ChatMessage msg = ChatMessage.unmarshall(authMessage);
                 String username = chatServer.getAuthService().getUsernameByLoginAndPassword(msg.getLogin(), msg.getPassword());
                 ChatMessage response = new ChatMessage();
                 if (username == null || username.equals("")) {
                     response.setMessageType(MessageType.ERROR);
                     response.setBody("Wrong username or password!");
-                    System.out.println("Wrong credentials");
+                    ServerApp.LOGGER_SERVER.log(Level.valueOf("Warn"), "From ClientHandler - Wrong credentials");
+//                    System.out.println("Wrong credentials");
                 } else if (chatServer.isUserOnline(username)) {
                     response.setMessageType(MessageType.ERROR);
                     response.setBody("Double auth!");
-                    System.out.println("Double auth!");
+                    ServerApp.LOGGER_SERVER.log(Level.valueOf("Warn"), "From ClientHandler - Double auth!");
+//                    System.out.println("Double auth!");
                 } else {
                     currentPassword = msg.getPassword();
                     response.setMessageType(MessageType.AUTH_CONFIRM);
                     response.setBody(username);
                     currentUsername = username;
                     chatServer.subscribe(this);
-                    System.out.println("Subscribed");
+                    ServerApp.LOGGER_SERVER.log(Level.valueOf("Info"), "From ClientHandler - Subscribed");
+//                    System.out.println("Subscribed");
                     timer.cancel();
                     sendMessage(response);
                     break;

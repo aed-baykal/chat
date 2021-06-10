@@ -1,9 +1,11 @@
 package ru.geekbrains.chat.server.server;
 
+import org.apache.logging.log4j.Level;
 import ru.geekbrains.chat.common.ChatMessage;
+import ru.geekbrains.chat.common.MessageType;
+import ru.geekbrains.chat.server.ServerApp;
 import ru.geekbrains.chat.server.auth.AuthService;
 import ru.geekbrains.chat.server.auth.DatabaseAuthService;
-import ru.geekbrains.chat.common.MessageType;
 
 import java.io.IOException;
 import java.net.ServerSocket;
@@ -27,13 +29,16 @@ public class ChatServer {
 
     public void start() {
         try(ServerSocket serverSocket = new ServerSocket(PORT)) {
-            System.out.println("Server started");
+            ServerApp.LOGGER_SERVER.log(Level.valueOf("Info"), "From ChatServer - Server started");
+//            System.out.println("Server started");
             authService.start();
 
             while (true) {
-                System.out.println("Waiting for connection");
+                ServerApp.LOGGER_SERVER.log(Level.valueOf("Info"), "From ChatServer - Waiting for connection");
+//                System.out.println("Waiting for connection");
                 Socket socket = serverSocket.accept();
-                System.out.println("Client connected");
+                ServerApp.LOGGER_SERVER.log(Level.valueOf("Info"), "From ChatServer - Client connected");
+//                System.out.println("Client connected");
                 new ClientHandler(socket, this).handle();
             }
         } catch (IOException e) {
@@ -50,7 +55,8 @@ public class ChatServer {
         msg.setOnlineUsers(new ArrayList<>());
         for (ClientHandler user : listOnlineUsers) {
             msg.getOnlineUsers().add(user.getCurrentName());
-            System.out.println(user.getCurrentName());
+            ServerApp.LOGGER_SERVER.log(Level.valueOf("Info"), "From ChatServer - " + user.getCurrentName());
+//            System.out.println(user.getCurrentName());
         }
         for (ClientHandler user : listOnlineUsers) {
             user.sendMessage(msg);
