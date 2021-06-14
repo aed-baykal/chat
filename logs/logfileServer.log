@@ -1,0 +1,10 @@
+INFO  2021-06-10 13:04:53 [main] ru.geekbrains.chat.server.ServerApp:12 (ServerApp.java:12) - Info
+INFO  2021-06-10 13:04:53 [main] ru.geekbrains.chat.server.server.ChatServer:32 (ChatServer.java:32) - From ChatServer - Server started
+INFO  2021-06-10 13:04:53 [main] ru.geekbrains.chat.server.server.ChatServer:37 (ChatServer.java:37) - From ChatServer - Waiting for connection
+INFO  2021-06-10 13:05:01 [main] ru.geekbrains.chat.server.server.ChatServer:40 (ChatServer.java:40) - From ChatServer - Client connected
+INFO  2021-06-10 13:05:01 [main] ru.geekbrains.chat.server.server.ClientHandler:36 (ClientHandler.java:36) - Client handler created!!!
+INFO  2021-06-10 13:05:01 [main] ru.geekbrains.chat.server.server.ChatServer:37 (ChatServer.java:37) - From ChatServer - Waiting for connection
+INFO  2021-06-10 13:05:01 [pool-2-thread-1] ru.geekbrains.chat.server.server.ClientHandler:131 (ClientHandler.java:131) - From ClientHandler - Started client  auth...
+INFO  2021-06-10 13:05:12 [pool-2-thread-1] ru.geekbrains.chat.server.server.ClientHandler:147 (ClientHandler.java:147) - From ClientHandler - Auth received
+INFO  2021-06-10 13:05:12 [pool-2-thread-1] ru.geekbrains.chat.server.server.ChatServer:58 (ChatServer.java:58) - From ChatServer - log1
+INFO  2021-06-10 13:05:12 [pool-2-thread-1] ru.geekbrains.chat.server.server.ClientHandler:168 (ClientHandler.java:168) - From ClientHandler - Subscribed

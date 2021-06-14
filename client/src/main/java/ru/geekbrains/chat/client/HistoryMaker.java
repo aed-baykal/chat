@@ -1,5 +1,7 @@
 package ru.geekbrains.chat.client;
 
+import org.apache.logging.log4j.Level;
+
 import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
@@ -45,6 +47,7 @@ public class HistoryMaker {
                 e.printStackTrace();
             }
         }
+        Main.LOGGER_CLIENT.log(Level.valueOf("Info"), "From HistoryMaker - History for " + result.size());
         System.out.println("History for " + result.size());
         return result;
     }

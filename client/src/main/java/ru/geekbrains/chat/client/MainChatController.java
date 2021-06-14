@@ -10,6 +10,7 @@ import javafx.scene.control.*;
 import javafx.scene.layout.Pane;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
+import org.apache.logging.log4j.Level;
 import ru.geekbrains.chat.client.network.ChatMessageService;
 import ru.geekbrains.chat.client.network.ChatMessageServiceImpl;
 import ru.geekbrains.chat.client.network.MessageProcessor;
@@ -115,6 +116,7 @@ public class MainChatController implements Initializable, MessageProcessor {
     public void processMessage(String msg) {
         Platform.runLater(() -> {
             ChatMessage message = ChatMessage.unmarshall(msg);
+            Main.LOGGER_CLIENT.log(Level.valueOf("Info"), "From MainChatController - Received message");
             System.out.println("Received message");
 
             switch (message.getMessageType()) {
@@ -212,12 +214,15 @@ public class MainChatController implements Initializable, MessageProcessor {
 
     private void showError(ChatMessage msg) {
         Alert alert = new Alert(Alert.AlertType.ERROR);
+        Main.LOGGER_CLIENT.log(Level.valueOf("Warn"), "From MainChatController - Something went wrong!");
         alert.setTitle("Something went wrong!");
         alert.setHeaderText(msg.getMessageType().toString());
+        Main.LOGGER_CLIENT.log(Level.valueOf("Warn"), "From MainChatController - " + msg.getMessageType().toString());
         VBox dialog = new VBox();
         Label label = new Label("Error:");
         TextArea textArea = new TextArea();
         textArea.setText(msg.getBody());
+        Main.LOGGER_CLIENT.log(Level.valueOf("Warn"), "From MainChatController - " + msg.getBody());
         dialog.getChildren().addAll(label, textArea);
         alert.getDialogPane().setContent(dialog);
         alert.showAndWait();
@@ -249,6 +254,7 @@ public class MainChatController implements Initializable, MessageProcessor {
             changePassnewPassField.clear();
             changePassConfirmPassField.clear();
             Alert alert = new Alert(Alert.AlertType.WARNING);
+            Main.LOGGER_CLIENT.log(Level.valueOf("Warn"), "From MainChatController - Changing your password is failed!");
             alert.setTitle("Changing your password is failed!");
             alert.setContentText("Entered passwords are not equal.");
             alert.showAndWait();
