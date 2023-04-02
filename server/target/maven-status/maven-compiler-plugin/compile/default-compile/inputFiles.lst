@@ -1,7 +1,7 @@
-/home/andrey/IdeaProjects/chat/server/src/main/java/ru/geekbrains/chat/server/auth/AuthService.java
-/home/andrey/IdeaProjects/chat/server/src/main/java/ru/geekbrains/chat/server/auth/User.java
-/home/andrey/IdeaProjects/chat/server/src/main/java/ru/geekbrains/chat/server/ServerApp.java
-/home/andrey/IdeaProjects/chat/server/src/main/java/ru/geekbrains/chat/server/auth/DatabaseAuthService.java
-/home/andrey/IdeaProjects/chat/server/src/main/java/ru/geekbrains/chat/server/server/ClientHandler.java
-/home/andrey/IdeaProjects/chat/server/src/main/java/ru/geekbrains/chat/server/server/ChatServer.java
-/home/andrey/IdeaProjects/chat/server/src/main/java/ru/geekbrains/chat/server/data_base/ClientsDatabaseService.java
+/home/andrey/IntellijWorkPlace/chat/server/src/main/java/ru/geekbrains/chat/server/data_base/ClientsDatabaseService.java
+/home/andrey/IntellijWorkPlace/chat/server/src/main/java/ru/geekbrains/chat/server/auth/User.java
+/home/andrey/IntellijWorkPlace/chat/server/src/main/java/ru/geekbrains/chat/server/auth/AuthService.java
+/home/andrey/IntellijWorkPlace/chat/server/src/main/java/ru/geekbrains/chat/server/server/ClientHandler.java
+/home/andrey/IntellijWorkPlace/chat/server/src/main/java/ru/geekbrains/chat/server/auth/DatabaseAuthService.java
+/home/andrey/IntellijWorkPlace/chat/server/src/main/java/ru/geekbrains/chat/server/ServerApp.java
+/home/andrey/IntellijWorkPlace/chat/server/src/main/java/ru/geekbrains/chat/server/server/ChatServer.java

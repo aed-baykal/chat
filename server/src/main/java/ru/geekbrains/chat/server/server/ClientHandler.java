@@ -1,7 +1,6 @@
 package ru.geekbrains.chat.server.server;
 
 import org.apache.logging.log4j.Level;
-import ru.geekbrains.chat.client.Main;
 import ru.geekbrains.chat.common.ChatMessage;
 import ru.geekbrains.chat.common.MessageType;
 import ru.geekbrains.chat.server.ServerApp;

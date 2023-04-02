@@ -4,7 +4,7 @@
 <?import javafx.scene.text.*?>
 
 <AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1"
-            xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.geekbrains.java_two.april_chat.client.AboutController">
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.geekbrains.chat.client.AboutController">
    <Text layoutX="160.0" layoutY="100.0" text="My Chat"
          >
       <font>

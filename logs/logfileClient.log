@@ -2,3 +2,50 @@ INFO  2021-06-10 13:05:01 [main] ru.geekbrains.chat.client.Main:10 (Main.java:10
 INFO  2021-06-10 13:05:12 [JavaFX Application Thread] ru.geekbrains.chat.client.MainChatController:119 (MainChatController.java:119) - From MainChatController - Received message
 INFO  2021-06-10 13:05:12 [JavaFX Application Thread] ru.geekbrains.chat.client.MainChatController:119 (MainChatController.java:119) - From MainChatController - Received message
 INFO  2021-06-10 13:05:12 [JavaFX Application Thread] ru.geekbrains.chat.client.HistoryMaker:50 (HistoryMaker.java:50) - From HistoryMaker - History for 8
+INFO  2021-08-24 11:15:13 [main] ru.geekbrains.chat.client.Main:10 (Main.java:10) - Info
+INFO  2021-08-24 11:17:03 [main] ru.geekbrains.chat.client.Main:10 (Main.java:10) - Info
+INFO  2021-08-24 11:21:25 [main] ru.geekbrains.chat.client.Main:10 (Main.java:10) - Info
+INFO  2021-08-24 11:21:41 [main] ru.geekbrains.chat.client.Main:10 (Main.java:10) - Info
+INFO  2021-08-24 11:22:54 [main] ru.geekbrains.chat.client.Main:10 (Main.java:10) - Info
+INFO  2021-08-24 11:23:08 [JavaFX Application Thread] ru.geekbrains.chat.client.MainChatController:119 (MainChatController.java:119) - From MainChatController - Received message
+INFO  2021-08-24 11:23:08 [JavaFX Application Thread] ru.geekbrains.chat.client.MainChatController:119 (MainChatController.java:119) - From MainChatController - Received message
+INFO  2021-08-24 11:23:08 [JavaFX Application Thread] ru.geekbrains.chat.client.HistoryMaker:50 (HistoryMaker.java:50) - From HistoryMaker - History for 6
+INFO  2021-08-24 11:23:26 [main] ru.geekbrains.chat.client.Main:10 (Main.java:10) - Info
+INFO  2021-08-24 11:23:41 [JavaFX Application Thread] ru.geekbrains.chat.client.MainChatController:119 (MainChatController.java:119) - From MainChatController - Received message
+INFO  2021-08-24 11:23:41 [JavaFX Application Thread] ru.geekbrains.chat.client.MainChatController:119 (MainChatController.java:119) - From MainChatController - Received message
+INFO  2021-08-24 11:23:41 [JavaFX Application Thread] ru.geekbrains.chat.client.HistoryMaker:50 (HistoryMaker.java:50) - From HistoryMaker - History for 6
+INFO  2021-08-24 11:23:54 [main] ru.geekbrains.chat.client.Main:10 (Main.java:10) - Info
+INFO  2021-08-24 11:24:03 [JavaFX Application Thread] ru.geekbrains.chat.client.MainChatController:119 (MainChatController.java:119) - From MainChatController - Received message
+INFO  2021-08-24 11:24:03 [JavaFX Application Thread] ru.geekbrains.chat.client.MainChatController:119 (MainChatController.java:119) - From MainChatController - Received message
+INFO  2021-08-24 11:24:48 [main] ru.geekbrains.chat.client.Main:10 (Main.java:10) - Info
+INFO  2021-08-24 11:24:57 [JavaFX Application Thread] ru.geekbrains.chat.client.MainChatController:119 (MainChatController.java:119) - From MainChatController - Received message
+INFO  2021-08-24 11:24:57 [JavaFX Application Thread] ru.geekbrains.chat.client.MainChatController:119 (MainChatController.java:119) - From MainChatController - Received message
+INFO  2021-08-24 11:24:57 [JavaFX Application Thread] ru.geekbrains.chat.client.HistoryMaker:50 (HistoryMaker.java:50) - From HistoryMaker - History for 6
+INFO  2021-08-24 11:25:08 [main] ru.geekbrains.chat.client.Main:10 (Main.java:10) - Info
+INFO  2021-08-24 11:25:15 [JavaFX Application Thread] ru.geekbrains.chat.client.MainChatController:119 (MainChatController.java:119) - From MainChatController - Received message
+INFO  2021-08-24 11:25:15 [JavaFX Application Thread] ru.geekbrains.chat.client.MainChatController:119 (MainChatController.java:119) - From MainChatController - Received message
+INFO  2021-08-24 11:25:15 [JavaFX Application Thread] ru.geekbrains.chat.client.MainChatController:119 (MainChatController.java:119) - From MainChatController - Received message
+INFO  2021-08-24 11:25:15 [JavaFX Application Thread] ru.geekbrains.chat.client.HistoryMaker:50 (HistoryMaker.java:50) - From HistoryMaker - History for 6
+INFO  2021-08-24 11:25:25 [JavaFX Application Thread] ru.geekbrains.chat.client.MainChatController:119 (MainChatController.java:119) - From MainChatController - Received message
+INFO  2021-08-24 11:25:25 [JavaFX Application Thread] ru.geekbrains.chat.client.MainChatController:119 (MainChatController.java:119) - From MainChatController - Received message
+INFO  2021-08-24 11:25:28 [JavaFX Application Thread] ru.geekbrains.chat.client.MainChatController:119 (MainChatController.java:119) - From MainChatController - Received message
+INFO  2021-08-24 11:25:28 [JavaFX Application Thread] ru.geekbrains.chat.client.MainChatController:119 (MainChatController.java:119) - From MainChatController - Received message
+INFO  2021-08-24 11:25:31 [JavaFX Application Thread] ru.geekbrains.chat.client.MainChatController:119 (MainChatController.java:119) - From MainChatController - Received message
+INFO  2021-08-26 22:15:54 [main] ru.geekbrains.chat.client.Main:10 (Main.java:10) - Info
+INFO  2021-09-06 22:44:57 [main] ru.geekbrains.chat.client.Main:10 (Main.java:10) - Info
+INFO  2021-09-06 22:45:20 [JavaFX Application Thread] ru.geekbrains.chat.client.MainChatController:119 (MainChatController.java:119) - From MainChatController - Received message
+INFO  2021-09-06 22:45:20 [JavaFX Application Thread] ru.geekbrains.chat.client.MainChatController:119 (MainChatController.java:119) - From MainChatController - Received message
+INFO  2021-09-06 22:45:20 [JavaFX Application Thread] ru.geekbrains.chat.client.HistoryMaker:50 (HistoryMaker.java:50) - From HistoryMaker - History for 8
+INFO  2021-09-06 22:45:36 [main] ru.geekbrains.chat.client.Main:10 (Main.java:10) - Info
+INFO  2021-09-06 22:45:46 [JavaFX Application Thread] ru.geekbrains.chat.client.MainChatController:119 (MainChatController.java:119) - From MainChatController - Received message
+INFO  2021-09-06 22:45:46 [JavaFX Application Thread] ru.geekbrains.chat.client.MainChatController:119 (MainChatController.java:119) - From MainChatController - Received message
+INFO  2021-09-06 22:45:46 [JavaFX Application Thread] ru.geekbrains.chat.client.MainChatController:119 (MainChatController.java:119) - From MainChatController - Received message
+INFO  2021-09-06 22:45:46 [JavaFX Application Thread] ru.geekbrains.chat.client.HistoryMaker:50 (HistoryMaker.java:50) - From HistoryMaker - History for 8
+INFO  2021-09-06 22:46:06 [JavaFX Application Thread] ru.geekbrains.chat.client.MainChatController:119 (MainChatController.java:119) - From MainChatController - Received message
+INFO  2021-09-06 22:46:06 [JavaFX Application Thread] ru.geekbrains.chat.client.MainChatController:119 (MainChatController.java:119) - From MainChatController - Received message
+INFO  2021-09-06 22:46:09 [JavaFX Application Thread] ru.geekbrains.chat.client.MainChatController:119 (MainChatController.java:119) - From MainChatController - Received message
+INFO  2021-09-06 22:46:09 [JavaFX Application Thread] ru.geekbrains.chat.client.MainChatController:119 (MainChatController.java:119) - From MainChatController - Received message
+INFO  2021-09-06 22:46:15 [JavaFX Application Thread] ru.geekbrains.chat.client.MainChatController:119 (MainChatController.java:119) - From MainChatController - Received message
+INFO  2023-04-02 13:21:00 [JavaFX Application Thread] ru.geekbrains.chat.client.MainChatController:119 (MainChatController.java:119) - From MainChatController - Received message
+INFO  2023-04-02 13:21:00 [JavaFX Application Thread] ru.geekbrains.chat.client.MainChatController:119 (MainChatController.java:119) - From MainChatController - Received message
+INFO  2023-04-02 13:21:00 [JavaFX Application Thread] ru.geekbrains.chat.client.HistoryMaker:50 (HistoryMaker.java:50) - From HistoryMaker - History for 10
