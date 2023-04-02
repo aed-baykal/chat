@@ -1,9 +1,0 @@
-ru/geekbrains/chat/server/ServerApp.class
-ru/geekbrains/chat/server/server/ClientHandler$1.class
-ru/geekbrains/chat/server/auth/AuthService.class
-ru/geekbrains/chat/server/server/ClientHandler$2.class
-ru/geekbrains/chat/server/server/ChatServer.class
-ru/geekbrains/chat/server/data_base/ClientsDatabaseService.class
-ru/geekbrains/chat/server/server/ClientHandler.class
-ru/geekbrains/chat/server/auth/DatabaseAuthService.class
-ru/geekbrains/chat/server/auth/User.class
