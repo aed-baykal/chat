@@ -10,6 +10,7 @@ public class NetworkService {
     private final DataInputStream inputStream;
     private final DataOutputStream outputStream;
     private final ChatMessageService messageService;
+//    private FileOutputStream fs = this.outputStream;
 
     public NetworkService(String host, int port, ChatMessageService messageService) throws IOException {
         this.socket = new Socket(host, port);

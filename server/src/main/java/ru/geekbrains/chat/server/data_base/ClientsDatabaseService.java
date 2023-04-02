@@ -10,7 +10,7 @@ import java.util.List;
 public class ClientsDatabaseService implements AuthService {
 
     private static ClientsDatabaseService instance;
-    private static final String CONNECTION = "jdbc:sqlite:/home/andrey/IdeaProjects/chat/server/src/main/resources/chat_users.db";
+    private static final String CONNECTION = "jdbc:sqlite:server/src/main/resources/chat_users.db";
     private static Connection connection;
     private final String GET_USERNAME = "select userid from users where userlogin = ? and userpassword = ?;";
     private final String CHANGE_USERNAME = "update users set userlogin = ? where userlogin = ?;";

@@ -8,3 +8,119 @@ INFO  2021-06-10 13:05:01 [pool-2-thread-1] ru.geekbrains.chat.server.server.Cli
 INFO  2021-06-10 13:05:12 [pool-2-thread-1] ru.geekbrains.chat.server.server.ClientHandler:147 (ClientHandler.java:147) - From ClientHandler - Auth received
 INFO  2021-06-10 13:05:12 [pool-2-thread-1] ru.geekbrains.chat.server.server.ChatServer:58 (ChatServer.java:58) - From ChatServer - log1
 INFO  2021-06-10 13:05:12 [pool-2-thread-1] ru.geekbrains.chat.server.server.ClientHandler:168 (ClientHandler.java:168) - From ClientHandler - Subscribed
+INFO  2021-08-24 11:22:44 [main] ru.geekbrains.chat.server.ServerApp:12 (ServerApp.java:12) - Info
+INFO  2021-08-24 11:22:44 [main] ru.geekbrains.chat.server.server.ChatServer:32 (ChatServer.java:32) - From ChatServer - Server started
+INFO  2021-08-24 11:22:44 [main] ru.geekbrains.chat.server.server.ChatServer:37 (ChatServer.java:37) - From ChatServer - Waiting for connection
+INFO  2021-08-24 11:22:55 [main] ru.geekbrains.chat.server.server.ChatServer:40 (ChatServer.java:40) - From ChatServer - Client connected
+INFO  2021-08-24 11:22:55 [main] ru.geekbrains.chat.server.server.ClientHandler:35 (ClientHandler.java:35) - Client handler created!!!
+INFO  2021-08-24 11:22:55 [main] ru.geekbrains.chat.server.server.ChatServer:37 (ChatServer.java:37) - From ChatServer - Waiting for connection
+INFO  2021-08-24 11:22:55 [pool-2-thread-1] ru.geekbrains.chat.server.server.ClientHandler:130 (ClientHandler.java:130) - From ClientHandler - Started client  auth...
+INFO  2021-08-24 11:23:08 [pool-2-thread-1] ru.geekbrains.chat.server.server.ClientHandler:146 (ClientHandler.java:146) - From ClientHandler - Auth received
+INFO  2021-08-24 11:23:08 [pool-2-thread-1] ru.geekbrains.chat.server.server.ChatServer:58 (ChatServer.java:58) - From ChatServer - log1
+INFO  2021-08-24 11:23:08 [pool-2-thread-1] ru.geekbrains.chat.server.server.ClientHandler:167 (ClientHandler.java:167) - From ClientHandler - Subscribed
+INFO  2021-08-24 11:23:26 [main] ru.geekbrains.chat.server.server.ChatServer:40 (ChatServer.java:40) - From ChatServer - Client connected
+INFO  2021-08-24 11:23:26 [main] ru.geekbrains.chat.server.server.ClientHandler:35 (ClientHandler.java:35) - Client handler created!!!
+INFO  2021-08-24 11:23:26 [main] ru.geekbrains.chat.server.server.ChatServer:37 (ChatServer.java:37) - From ChatServer - Waiting for connection
+INFO  2021-08-24 11:23:26 [pool-2-thread-1] ru.geekbrains.chat.server.server.ClientHandler:130 (ClientHandler.java:130) - From ClientHandler - Started client  auth...
+INFO  2021-08-24 11:23:41 [pool-2-thread-1] ru.geekbrains.chat.server.server.ClientHandler:146 (ClientHandler.java:146) - From ClientHandler - Auth received
+INFO  2021-08-24 11:23:41 [pool-2-thread-1] ru.geekbrains.chat.server.server.ChatServer:58 (ChatServer.java:58) - From ChatServer - log2
+INFO  2021-08-24 11:23:41 [pool-2-thread-1] ru.geekbrains.chat.server.server.ClientHandler:167 (ClientHandler.java:167) - From ClientHandler - Subscribed
+INFO  2021-08-24 11:23:55 [main] ru.geekbrains.chat.server.server.ChatServer:40 (ChatServer.java:40) - From ChatServer - Client connected
+INFO  2021-08-24 11:23:55 [main] ru.geekbrains.chat.server.server.ClientHandler:35 (ClientHandler.java:35) - Client handler created!!!
+INFO  2021-08-24 11:23:55 [main] ru.geekbrains.chat.server.server.ChatServer:37 (ChatServer.java:37) - From ChatServer - Waiting for connection
+INFO  2021-08-24 11:23:55 [pool-2-thread-1] ru.geekbrains.chat.server.server.ClientHandler:130 (ClientHandler.java:130) - From ClientHandler - Started client  auth...
+INFO  2021-08-24 11:24:03 [pool-2-thread-1] ru.geekbrains.chat.server.server.ClientHandler:146 (ClientHandler.java:146) - From ClientHandler - Auth received
+INFO  2021-08-24 11:24:03 [pool-2-thread-1] ru.geekbrains.chat.server.server.ChatServer:58 (ChatServer.java:58) - From ChatServer - log3
+INFO  2021-08-24 11:24:03 [pool-2-thread-1] ru.geekbrains.chat.server.server.ClientHandler:167 (ClientHandler.java:167) - From ClientHandler - Subscribed
+INFO  2021-08-24 11:24:49 [main] ru.geekbrains.chat.server.server.ChatServer:40 (ChatServer.java:40) - From ChatServer - Client connected
+INFO  2021-08-24 11:24:49 [main] ru.geekbrains.chat.server.server.ClientHandler:35 (ClientHandler.java:35) - Client handler created!!!
+INFO  2021-08-24 11:24:49 [main] ru.geekbrains.chat.server.server.ChatServer:37 (ChatServer.java:37) - From ChatServer - Waiting for connection
+INFO  2021-08-24 11:24:49 [pool-2-thread-1] ru.geekbrains.chat.server.server.ClientHandler:130 (ClientHandler.java:130) - From ClientHandler - Started client  auth...
+INFO  2021-08-24 11:24:57 [pool-2-thread-1] ru.geekbrains.chat.server.server.ClientHandler:146 (ClientHandler.java:146) - From ClientHandler - Auth received
+INFO  2021-08-24 11:24:57 [pool-2-thread-1] ru.geekbrains.chat.server.server.ChatServer:58 (ChatServer.java:58) - From ChatServer - log1
+INFO  2021-08-24 11:24:57 [pool-2-thread-1] ru.geekbrains.chat.server.server.ClientHandler:167 (ClientHandler.java:167) - From ClientHandler - Subscribed
+INFO  2021-08-24 11:25:08 [main] ru.geekbrains.chat.server.server.ChatServer:40 (ChatServer.java:40) - From ChatServer - Client connected
+INFO  2021-08-24 11:25:08 [main] ru.geekbrains.chat.server.server.ClientHandler:35 (ClientHandler.java:35) - Client handler created!!!
+INFO  2021-08-24 11:25:08 [main] ru.geekbrains.chat.server.server.ChatServer:37 (ChatServer.java:37) - From ChatServer - Waiting for connection
+INFO  2021-08-24 11:25:08 [pool-2-thread-2] ru.geekbrains.chat.server.server.ClientHandler:130 (ClientHandler.java:130) - From ClientHandler - Started client  auth...
+INFO  2021-08-24 11:25:15 [pool-2-thread-2] ru.geekbrains.chat.server.server.ClientHandler:146 (ClientHandler.java:146) - From ClientHandler - Auth received
+INFO  2021-08-24 11:25:15 [pool-2-thread-2] ru.geekbrains.chat.server.server.ChatServer:58 (ChatServer.java:58) - From ChatServer - log1
+INFO  2021-08-24 11:25:15 [pool-2-thread-2] ru.geekbrains.chat.server.server.ChatServer:58 (ChatServer.java:58) - From ChatServer - log2
+INFO  2021-08-24 11:25:15 [pool-2-thread-2] ru.geekbrains.chat.server.server.ClientHandler:167 (ClientHandler.java:167) - From ClientHandler - Subscribed
+INFO  2021-08-24 11:25:31 [pool-2-thread-2] ru.geekbrains.chat.server.server.ChatServer:58 (ChatServer.java:58) - From ChatServer - log1
+INFO  2021-08-26 22:15:22 [main] ru.geekbrains.chat.server.ServerApp:12 (ServerApp.java:12) - Info
+INFO  2021-08-26 22:15:22 [main] ru.geekbrains.chat.server.server.ChatServer:32 (ChatServer.java:32) - From ChatServer - Server started
+INFO  2021-08-26 22:15:23 [main] ru.geekbrains.chat.server.server.ChatServer:37 (ChatServer.java:37) - From ChatServer - Waiting for connection
+INFO  2021-08-26 22:15:54 [main] ru.geekbrains.chat.server.server.ChatServer:40 (ChatServer.java:40) - From ChatServer - Client connected
+INFO  2021-08-26 22:15:54 [main] ru.geekbrains.chat.server.server.ClientHandler:35 (ClientHandler.java:35) - Client handler created!!!
+INFO  2021-08-26 22:15:54 [main] ru.geekbrains.chat.server.server.ChatServer:37 (ChatServer.java:37) - From ChatServer - Waiting for connection
+INFO  2021-08-26 22:15:54 [pool-2-thread-1] ru.geekbrains.chat.server.server.ClientHandler:130 (ClientHandler.java:130) - From ClientHandler - Started client  auth...
+WARN  2021-08-26 22:16:24 [Timer-0] ru.geekbrains.chat.server.server.ClientHandler$1:137 (ClientHandler.java:137) - From ClientHandler -  Connection is closed!
+INFO  2021-09-06 22:44:40 [main] ru.geekbrains.chat.server.ServerApp:12 (ServerApp.java:12) - Info
+INFO  2021-09-06 22:44:40 [main] ru.geekbrains.chat.server.server.ChatServer:32 (ChatServer.java:32) - From ChatServer - Server started
+INFO  2021-09-06 22:44:40 [main] ru.geekbrains.chat.server.server.ChatServer:37 (ChatServer.java:37) - From ChatServer - Waiting for connection
+INFO  2021-09-06 22:44:58 [main] ru.geekbrains.chat.server.server.ChatServer:40 (ChatServer.java:40) - From ChatServer - Client connected
+INFO  2021-09-06 22:44:58 [main] ru.geekbrains.chat.server.server.ClientHandler:35 (ClientHandler.java:35) - Client handler created!!!
+INFO  2021-09-06 22:44:58 [pool-2-thread-1] ru.geekbrains.chat.server.server.ClientHandler:130 (ClientHandler.java:130) - From ClientHandler - Started client  auth...
+INFO  2021-09-06 22:44:58 [main] ru.geekbrains.chat.server.server.ChatServer:37 (ChatServer.java:37) - From ChatServer - Waiting for connection
+INFO  2021-09-06 22:45:20 [pool-2-thread-1] ru.geekbrains.chat.server.server.ClientHandler:146 (ClientHandler.java:146) - From ClientHandler - Auth received
+INFO  2021-09-06 22:45:20 [pool-2-thread-1] ru.geekbrains.chat.server.server.ChatServer:58 (ChatServer.java:58) - From ChatServer - log1
+INFO  2021-09-06 22:45:20 [pool-2-thread-1] ru.geekbrains.chat.server.server.ClientHandler:167 (ClientHandler.java:167) - From ClientHandler - Subscribed
+INFO  2021-09-06 22:45:37 [main] ru.geekbrains.chat.server.server.ChatServer:40 (ChatServer.java:40) - From ChatServer - Client connected
+INFO  2021-09-06 22:45:37 [main] ru.geekbrains.chat.server.server.ClientHandler:35 (ClientHandler.java:35) - Client handler created!!!
+INFO  2021-09-06 22:45:37 [main] ru.geekbrains.chat.server.server.ChatServer:37 (ChatServer.java:37) - From ChatServer - Waiting for connection
+INFO  2021-09-06 22:45:37 [pool-2-thread-2] ru.geekbrains.chat.server.server.ClientHandler:130 (ClientHandler.java:130) - From ClientHandler - Started client  auth...
+INFO  2021-09-06 22:45:46 [pool-2-thread-2] ru.geekbrains.chat.server.server.ClientHandler:146 (ClientHandler.java:146) - From ClientHandler - Auth received
+INFO  2021-09-06 22:45:46 [pool-2-thread-2] ru.geekbrains.chat.server.server.ChatServer:58 (ChatServer.java:58) - From ChatServer - log1
+INFO  2021-09-06 22:45:46 [pool-2-thread-2] ru.geekbrains.chat.server.server.ChatServer:58 (ChatServer.java:58) - From ChatServer - log2
+INFO  2021-09-06 22:45:46 [pool-2-thread-2] ru.geekbrains.chat.server.server.ClientHandler:167 (ClientHandler.java:167) - From ClientHandler - Subscribed
+INFO  2021-09-06 22:46:15 [pool-2-thread-2] ru.geekbrains.chat.server.server.ChatServer:58 (ChatServer.java:58) - From ChatServer - log1
+INFO  2023-04-02 13:03:35 [main] ru.geekbrains.chat.server.ServerApp:12 (ServerApp.java:12) - Info
+INFO  2023-04-02 13:03:35 [main] ru.geekbrains.chat.server.server.ChatServer:32 (ChatServer.java:32) - From ChatServer - Server started
+INFO  2023-04-02 13:03:35 [main] ru.geekbrains.chat.server.server.ChatServer:37 (ChatServer.java:37) - From ChatServer - Waiting for connection
+INFO  2023-04-02 13:04:52 [main] ru.geekbrains.chat.server.ServerApp:12 (ServerApp.java:12) - Info
+INFO  2023-04-02 13:04:52 [main] ru.geekbrains.chat.server.server.ChatServer:32 (ChatServer.java:32) - From ChatServer - Server started
+INFO  2023-04-02 13:04:52 [main] ru.geekbrains.chat.server.server.ChatServer:37 (ChatServer.java:37) - From ChatServer - Waiting for connection
+INFO  2023-04-02 13:08:36 [main] ru.geekbrains.chat.server.ServerApp:12 (ServerApp.java:12) - Info
+INFO  2023-04-02 13:08:36 [main] ru.geekbrains.chat.server.server.ChatServer:32 (ChatServer.java:32) - From ChatServer - Server started
+INFO  2023-04-02 13:08:36 [main] ru.geekbrains.chat.server.server.ChatServer:37 (ChatServer.java:37) - From ChatServer - Waiting for connection
+INFO  2023-04-02 13:09:20 [main] ru.geekbrains.chat.server.ServerApp:12 (ServerApp.java:12) - Info
+INFO  2023-04-02 13:09:20 [main] ru.geekbrains.chat.server.server.ChatServer:32 (ChatServer.java:32) - From ChatServer - Server started
+INFO  2023-04-02 13:09:20 [main] ru.geekbrains.chat.server.server.ChatServer:37 (ChatServer.java:37) - From ChatServer - Waiting for connection
+INFO  2023-04-02 13:12:08 [main] ru.geekbrains.chat.server.ServerApp:12 (ServerApp.java:12) - Info
+INFO  2023-04-02 13:12:08 [main] ru.geekbrains.chat.server.server.ChatServer:32 (ChatServer.java:32) - From ChatServer - Server started
+INFO  2023-04-02 13:12:08 [main] ru.geekbrains.chat.server.server.ChatServer:37 (ChatServer.java:37) - From ChatServer - Waiting for connection
+INFO  2023-04-02 13:12:18 [main] ru.geekbrains.chat.server.ServerApp:12 (ServerApp.java:12) - Info
+INFO  2023-04-02 13:12:18 [main] ru.geekbrains.chat.server.server.ChatServer:32 (ChatServer.java:32) - From ChatServer - Server started
+INFO  2023-04-02 13:12:18 [main] ru.geekbrains.chat.server.server.ChatServer:37 (ChatServer.java:37) - From ChatServer - Waiting for connection
+INFO  2023-04-02 13:12:54 [main] ru.geekbrains.chat.server.ServerApp:12 (ServerApp.java:12) - Info
+INFO  2023-04-02 13:12:54 [main] ru.geekbrains.chat.server.server.ChatServer:32 (ChatServer.java:32) - From ChatServer - Server started
+INFO  2023-04-02 13:12:54 [main] ru.geekbrains.chat.server.server.ChatServer:37 (ChatServer.java:37) - From ChatServer - Waiting for connection
+INFO  2023-04-02 13:13:49 [main] ru.geekbrains.chat.server.ServerApp:12 (ServerApp.java:12) - Info
+INFO  2023-04-02 13:13:49 [main] ru.geekbrains.chat.server.server.ChatServer:32 (ChatServer.java:32) - From ChatServer - Server started
+INFO  2023-04-02 13:13:49 [main] ru.geekbrains.chat.server.server.ChatServer:37 (ChatServer.java:37) - From ChatServer - Waiting for connection
+INFO  2023-04-02 13:14:43 [main] ru.geekbrains.chat.server.ServerApp:12 (ServerApp.java:12) - Info
+INFO  2023-04-02 13:14:43 [main] ru.geekbrains.chat.server.server.ChatServer:32 (ChatServer.java:32) - From ChatServer - Server started
+INFO  2023-04-02 13:14:43 [main] ru.geekbrains.chat.server.server.ChatServer:37 (ChatServer.java:37) - From ChatServer - Waiting for connection
+INFO  2023-04-02 13:15:38 [main] ru.geekbrains.chat.server.ServerApp:12 (ServerApp.java:12) - Info
+INFO  2023-04-02 13:15:38 [main] ru.geekbrains.chat.server.server.ChatServer:32 (ChatServer.java:32) - From ChatServer - Server started
+INFO  2023-04-02 13:15:38 [main] ru.geekbrains.chat.server.server.ChatServer:37 (ChatServer.java:37) - From ChatServer - Waiting for connection
+INFO  2023-04-02 13:16:04 [main] ru.geekbrains.chat.server.ServerApp:12 (ServerApp.java:12) - Info
+INFO  2023-04-02 13:16:04 [main] ru.geekbrains.chat.server.server.ChatServer:32 (ChatServer.java:32) - From ChatServer - Server started
+INFO  2023-04-02 13:16:04 [main] ru.geekbrains.chat.server.server.ChatServer:37 (ChatServer.java:37) - From ChatServer - Waiting for connection
+INFO  2023-04-02 13:16:26 [main] ru.geekbrains.chat.server.ServerApp:12 (ServerApp.java:12) - Info
+INFO  2023-04-02 13:16:26 [main] ru.geekbrains.chat.server.server.ChatServer:32 (ChatServer.java:32) - From ChatServer - Server started
+INFO  2023-04-02 13:16:26 [main] ru.geekbrains.chat.server.server.ChatServer:37 (ChatServer.java:37) - From ChatServer - Waiting for connection
+INFO  2023-04-02 13:17:06 [main] ru.geekbrains.chat.server.ServerApp:12 (ServerApp.java:12) - Info
+INFO  2023-04-02 13:17:06 [main] ru.geekbrains.chat.server.server.ChatServer:32 (ChatServer.java:32) - From ChatServer - Server started
+INFO  2023-04-02 13:17:06 [main] ru.geekbrains.chat.server.server.ChatServer:37 (ChatServer.java:37) - From ChatServer - Waiting for connection
+INFO  2023-04-02 13:17:39 [main] ru.geekbrains.chat.server.ServerApp:12 (ServerApp.java:12) - Info
+INFO  2023-04-02 13:17:39 [main] ru.geekbrains.chat.server.server.ChatServer:32 (ChatServer.java:32) - From ChatServer - Server started
+INFO  2023-04-02 13:17:40 [main] ru.geekbrains.chat.server.server.ChatServer:37 (ChatServer.java:37) - From ChatServer - Waiting for connection
+INFO  2023-04-02 13:20:50 [main] ru.geekbrains.chat.server.server.ChatServer:40 (ChatServer.java:40) - From ChatServer - Client connected
+INFO  2023-04-02 13:20:50 [main] ru.geekbrains.chat.server.server.ClientHandler:35 (ClientHandler.java:35) - Client handler created!!!
+INFO  2023-04-02 13:20:50 [main] ru.geekbrains.chat.server.server.ChatServer:37 (ChatServer.java:37) - From ChatServer - Waiting for connection
+INFO  2023-04-02 13:20:50 [pool-2-thread-1] ru.geekbrains.chat.server.server.ClientHandler:130 (ClientHandler.java:130) - From ClientHandler - Started client  auth...
+INFO  2023-04-02 13:21:00 [pool-2-thread-1] ru.geekbrains.chat.server.server.ClientHandler:146 (ClientHandler.java:146) - From ClientHandler - Auth received
+INFO  2023-04-02 13:21:00 [pool-2-thread-1] ru.geekbrains.chat.server.server.ChatServer:58 (ChatServer.java:58) - From ChatServer - log1
+INFO  2023-04-02 13:21:00 [pool-2-thread-1] ru.geekbrains.chat.server.server.ClientHandler:167 (ClientHandler.java:167) - From ClientHandler - Subscribed
